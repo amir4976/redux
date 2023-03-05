@@ -1,0 +1,29 @@
+@use "sass:math"; 
+
+$color:rgb(255, 166, 0);
+
+@mixin colors($Textcolor:red) {
+    color: $Textcolor;
+    font-size: 20px;
+}
+ 
+%share-data{
+    background-color: blue;
+    text-align: center;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    .container-tim{
+        width: math.div(500px,900px) * 100%;
+        height: 600px;
+        border: 1px solid red;
+        border-radius: 10px;
+        @include colors($Textcolor:rgb(255, 247, 0));
+        @extend %share-data;
+        }
+    
+}

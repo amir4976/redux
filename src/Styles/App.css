@@ -1,0 +1,19 @@
+.App .container-tim {
+  background-color: blue;
+  text-align: center;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.App .container-tim {
+  width: 55.5555555556%;
+  height: 600px;
+  border: 1px solid red;
+  border-radius: 10px;
+  color: rgb(255, 247, 0);
+  font-size: 20px;
+}/*# sourceMappingURL=App.css.map */
